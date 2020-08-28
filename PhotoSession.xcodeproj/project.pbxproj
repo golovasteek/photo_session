@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C27184F24F763F70003AC63 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C27184E24F763F70003AC63 /* Default-568h@2x.png */; };
+		3C4814E624ED1B7F0033011A /* YandexDiskClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4814E524ED1B7F0033011A /* YandexDiskClient.swift */; };
+		3C9A220424EB982700853596 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A220324EB982700853596 /* PhotoCaptureDelegate.swift */; };
 		3CC7247B24E7A2F1007E7F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7247A24E7A2F0007E7F6E /* AppDelegate.swift */; };
 		3CC7247D24E7A2F1007E7F6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7247C24E7A2F1007E7F6E /* SceneDelegate.swift */; };
 		3CC7247F24E7A2F1007E7F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7247E24E7A2F1007E7F6E /* ViewController.swift */; };
 		3CC7248224E7A2F1007E7F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7248024E7A2F1007E7F6E /* Main.storyboard */; };
 		3CC7248424E7A2FC007E7F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7248324E7A2FC007E7F6E /* Assets.xcassets */; };
 		3CC7248724E7A2FC007E7F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC7248524E7A2FC007E7F6E /* LaunchScreen.storyboard */; };
-		3CC7249224E7A2FD007E7F6E /* sane3D_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7249124E7A2FD007E7F6E /* sane3D_DemoTests.swift */; };
+		3CC7249224E7A2FD007E7F6E /* PhotoSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7249124E7A2FD007E7F6E /* PhotoSessionTests.swift */; };
+		3CC7249D24EA3B14007E7F6E /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7249C24EA3B14007E7F6E /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3CC7247724E7A2F0007E7F6E /* sane3D Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sane3D Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C27184E24F763F70003AC63 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3C4814E524ED1B7F0033011A /* YandexDiskClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexDiskClient.swift; sourceTree = "<group>"; };
+		3C9A220324EB982700853596 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		3CC7247724E7A2F0007E7F6E /* PhotoSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC7247A24E7A2F0007E7F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC7247C24E7A2F1007E7F6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CC7247E24E7A2F1007E7F6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +42,10 @@
 		3CC7248324E7A2FC007E7F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC7248624E7A2FC007E7F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC7248824E7A2FC007E7F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3CC7248D24E7A2FD007E7F6E /* sane3D DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sane3D DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CC7249124E7A2FD007E7F6E /* sane3D_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sane3D_DemoTests.swift; sourceTree = "<group>"; };
+		3CC7248D24E7A2FD007E7F6E /* PhotoSessionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSessionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC7249124E7A2FD007E7F6E /* PhotoSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSessionTests.swift; sourceTree = "<group>"; };
 		3CC7249324E7A2FD007E7F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC7249C24EA3B14007E7F6E /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +69,9 @@
 		3CC7246E24E7A2F0007E7F6E = {
 			isa = PBXGroup;
 			children = (
-				3CC7247924E7A2F0007E7F6E /* sane3D Demo */,
-				3CC7249024E7A2FD007E7F6E /* sane3D DemoTests */,
+				3C27184E24F763F70003AC63 /* Default-568h@2x.png */,
+				3CC7247924E7A2F0007E7F6E /* PhotoSession */,
+				3CC7249024E7A2FD007E7F6E /* PhotoSessionTests */,
 				3CC7247824E7A2F0007E7F6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,13 +79,13 @@
 		3CC7247824E7A2F0007E7F6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3CC7247724E7A2F0007E7F6E /* sane3D Demo.app */,
-				3CC7248D24E7A2FD007E7F6E /* sane3D DemoTests.xctest */,
+				3CC7247724E7A2F0007E7F6E /* PhotoSession.app */,
+				3CC7248D24E7A2FD007E7F6E /* PhotoSessionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3CC7247924E7A2F0007E7F6E /* sane3D Demo */ = {
+		3CC7247924E7A2F0007E7F6E /* PhotoSession */ = {
 			isa = PBXGroup;
 			children = (
 				3CC7247A24E7A2F0007E7F6E /* AppDelegate.swift */,
@@ -86,25 +95,28 @@
 				3CC7248324E7A2FC007E7F6E /* Assets.xcassets */,
 				3CC7248524E7A2FC007E7F6E /* LaunchScreen.storyboard */,
 				3CC7248824E7A2FC007E7F6E /* Info.plist */,
+				3CC7249C24EA3B14007E7F6E /* PreviewView.swift */,
+				3C9A220324EB982700853596 /* PhotoCaptureDelegate.swift */,
+				3C4814E524ED1B7F0033011A /* YandexDiskClient.swift */,
 			);
-			path = "sane3D Demo";
+			path = PhotoSession;
 			sourceTree = "<group>";
 		};
-		3CC7249024E7A2FD007E7F6E /* sane3D DemoTests */ = {
+		3CC7249024E7A2FD007E7F6E /* PhotoSessionTests */ = {
 			isa = PBXGroup;
 			children = (
-				3CC7249124E7A2FD007E7F6E /* sane3D_DemoTests.swift */,
+				3CC7249124E7A2FD007E7F6E /* PhotoSessionTests.swift */,
 				3CC7249324E7A2FD007E7F6E /* Info.plist */,
 			);
-			path = "sane3D DemoTests";
+			path = PhotoSessionTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3CC7247624E7A2F0007E7F6E /* sane3D Demo */ = {
+		3CC7247624E7A2F0007E7F6E /* PhotoSession */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CC7249624E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "sane3D Demo" */;
+			buildConfigurationList = 3CC7249624E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "PhotoSession" */;
 			buildPhases = (
 				3CC7247324E7A2F0007E7F6E /* Sources */,
 				3CC7247424E7A2F0007E7F6E /* Frameworks */,
@@ -114,14 +126,14 @@
 			);
 			dependencies = (
 			);
-			name = "sane3D Demo";
+			name = PhotoSession;
 			productName = "sane3D Demo";
-			productReference = 3CC7247724E7A2F0007E7F6E /* sane3D Demo.app */;
+			productReference = 3CC7247724E7A2F0007E7F6E /* PhotoSession.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3CC7248C24E7A2FD007E7F6E /* sane3D DemoTests */ = {
+		3CC7248C24E7A2FD007E7F6E /* PhotoSessionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3CC7249924E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "sane3D DemoTests" */;
+			buildConfigurationList = 3CC7249924E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "PhotoSessionTests" */;
 			buildPhases = (
 				3CC7248924E7A2FD007E7F6E /* Sources */,
 				3CC7248A24E7A2FD007E7F6E /* Frameworks */,
@@ -132,9 +144,9 @@
 			dependencies = (
 				3CC7248F24E7A2FD007E7F6E /* PBXTargetDependency */,
 			);
-			name = "sane3D DemoTests";
+			name = PhotoSessionTests;
 			productName = "sane3D DemoTests";
-			productReference = 3CC7248D24E7A2FD007E7F6E /* sane3D DemoTests.xctest */;
+			productReference = 3CC7248D24E7A2FD007E7F6E /* PhotoSessionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3CC7247224E7A2F0007E7F6E /* Build configuration list for PBXProject "sane3D Demo" */;
+			buildConfigurationList = 3CC7247224E7A2F0007E7F6E /* Build configuration list for PBXProject "PhotoSession" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3CC7247624E7A2F0007E7F6E /* sane3D Demo */,
-				3CC7248C24E7A2FD007E7F6E /* sane3D DemoTests */,
+				3CC7247624E7A2F0007E7F6E /* PhotoSession */,
+				3CC7248C24E7A2FD007E7F6E /* PhotoSessionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CC7248724E7A2FC007E7F6E /* LaunchScreen.storyboard in Resources */,
+				3C27184F24F763F70003AC63 /* Default-568h@2x.png in Resources */,
 				3CC7248424E7A2FC007E7F6E /* Assets.xcassets in Resources */,
 				3CC7248224E7A2F1007E7F6E /* Main.storyboard in Resources */,
 			);
@@ -201,7 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CC7247F24E7A2F1007E7F6E /* ViewController.swift in Sources */,
+				3CC7249D24EA3B14007E7F6E /* PreviewView.swift in Sources */,
+				3C4814E624ED1B7F0033011A /* YandexDiskClient.swift in Sources */,
 				3CC7247B24E7A2F1007E7F6E /* AppDelegate.swift in Sources */,
+				3C9A220424EB982700853596 /* PhotoCaptureDelegate.swift in Sources */,
 				3CC7247D24E7A2F1007E7F6E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC7249224E7A2FD007E7F6E /* sane3D_DemoTests.swift in Sources */,
+				3CC7249224E7A2FD007E7F6E /* PhotoSessionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +235,7 @@
 /* Begin PBXTargetDependency section */
 		3CC7248F24E7A2FD007E7F6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3CC7247624E7A2F0007E7F6E /* sane3D Demo */;
+			target = 3CC7247624E7A2F0007E7F6E /* PhotoSession */;
 			targetProxy = 3CC7248E24E7A2FD007E7F6E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -364,13 +380,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2G2XZHY566;
-				INFOPLIST_FILE = "sane3D Demo/Info.plist";
+				INFOPLIST_FILE = PhotoSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.sane3d.sane3D-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.sane3d.photo-session";
+				PRODUCT_NAME = PhotoSession;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,13 +399,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2G2XZHY566;
-				INFOPLIST_FILE = "sane3D Demo/Info.plist";
+				INFOPLIST_FILE = PhotoSession/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.sane3d.sane3D-Demo";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.sane3d.photo-session";
+				PRODUCT_NAME = PhotoSession;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3CC7247224E7A2F0007E7F6E /* Build configuration list for PBXProject "sane3D Demo" */ = {
+		3CC7247224E7A2F0007E7F6E /* Build configuration list for PBXProject "PhotoSession" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CC7249424E7A2FD007E7F6E /* Debug */,
@@ -450,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CC7249624E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "sane3D Demo" */ = {
+		3CC7249624E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "PhotoSession" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CC7249724E7A2FD007E7F6E /* Debug */,
@@ -459,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3CC7249924E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "sane3D DemoTests" */ = {
+		3CC7249924E7A2FD007E7F6E /* Build configuration list for PBXNativeTarget "PhotoSessionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3CC7249A24E7A2FD007E7F6E /* Debug */,

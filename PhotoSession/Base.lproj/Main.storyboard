@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sane3D_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i3L-1X-2w7" customClass="PreviewView" customModule="sane3D_Demo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <viewLayoutGuide key="safeArea" id="9we-7n-SBO"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP1-OM-bzQ">
+                                <rect key="frame" x="338.5" y="30" width="91" height="30"/>
+                                <state key="normal" title="Project name"/>
+                                <connections>
+                                    <action selector="setProjectName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sFa-zY-lEI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7V-FN-s6h">
+                                <rect key="frame" x="353" y="925" width="62" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="OPh-8R-GNF"/>
+                                    <constraint firstAttribute="height" constant="69" id="Rar-ZM-RqS"/>
+                                </constraints>
+                                <state key="normal" image="camera" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9M-4M-Vok"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vP1-OM-bzQ" firstAttribute="top" secondItem="i3L-1X-2w7" secondAttribute="top" constant="30" id="05P-kO-sqs"/>
+                            <constraint firstItem="i3L-1X-2w7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2yl-5f-0lE"/>
+                            <constraint firstItem="i3L-1X-2w7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Jo-MG-yGs"/>
+                            <constraint firstItem="vP1-OM-bzQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DqL-Ju-kLp"/>
+                            <constraint firstItem="i3L-1X-2w7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bul-kx-sN4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="i3L-1X-2w7" secondAttribute="bottom" id="jgM-EG-1et"/>
+                            <constraint firstItem="N7V-FN-s6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mB2-3j-Zt4"/>
+                            <constraint firstItem="N7V-FN-s6h" firstAttribute="bottom" secondItem="i3L-1X-2w7" secondAttribute="bottom" constant="-30" id="o0R-80-ONt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="i3L-1X-2w7" id="Rf7-K8-FUJ"/>
+                        <outlet property="projectNameButton" destination="vP1-OM-bzQ" id="tsf-UU-rm2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.9375" y="125.39062499999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="96"/>
+    </resources>
+</document>
